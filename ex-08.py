@@ -1,4 +1,10 @@
 #8. Implemente um programa que na primeira linha faça um print perguntando o nome do usuário e, na linha 2, chame a função input() para capturar o valor do teclado e armazenar na memória do computador.
-print("qual é o seu nome?")
+print("Qual é o seu nome?")
 nome = input()
-print(nome)
+print("Que nome Lindo!",nome)
+print("Em qual Cidade você mora?")
+cidade = input()
+print(cidade,"? Adoro esse lugar.")
+print("Qual é a sua linguagem de programação favorita?")
+linguagem = input()
+print("Sério? Eu já tentei programar em",linguagem,",mas não me dei muito bem com ela.")
